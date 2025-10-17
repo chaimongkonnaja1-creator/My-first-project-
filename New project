@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>เกี่ยวกับผม</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #ff7e5f, #feb47b);
+      color: #333;
+      text-align: center;
+      padding: 40px;
+    }
+    h1 {
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid white;
+    }
+    .friend {
+      background: rgba(255,255,255,0.2);
+      margin: 20px auto;
+      padding: 15px;
+      border-radius: 15px;
+      width: 300px;
+      color: white;
+    }
+    a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      margin-top: 30px;
+      color: #fff;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>เกี่ยวกับผม</h1>
+  <img src="https://via.placeholder.com/150" alt="รูปของผม">
+  <p>สวัสดีครับ ผมชื่อ ... ผมเป็นคนที่ชอบเรียนรู้เรื่องเทคโนโลยี การเขียนเว็บ และชอบลองอะไรใหม่ ๆ อยู่เสมอครับ</p>
+
+  <h2>โซเชียลของผม</h2>
+  <p>
+    <a href="https://www.facebook.com/chaimongkhon.rodniam" target="_blank">Facebook</a> |
+    <a href="https://www.instagram.com/frx._08" target="_blank">Instagram</a> |
+    <a href="https://x.com/@zoneneverdie/" target="_blank">X (Twitter)</a>
+  </p>
+
+  <h2>เพื่อนของผม</h2>
+
+  <!-- 🔹 ตรงนี้คือส่วนที่คุณสามารถ "เพิ่มเพื่อน" ได้ -->
+  <div class="friend">
+    <img src="https://via.placeholder.com/150" alt="เพื่อน A">
+    <h3>เพื่อน A</h3>
+    <p>เพื่อนคนนี้ชอบเล่นฟุตบอลและชอบออกกำลังกาย</p>
+  </div>
+
+  <div class="friend">
+    <img src="https://via.placeholder.com/150" alt="เพื่อน B">
+    <h3>เพื่อน B</h3>
+    <p>เพื่อนคนนี้เป็นสายเกม ชอบเล่นเกมแนว FPS</p>
+  </div>
+
+  <footer>
+    © 2025 เว็บไซต์โดยผมเอง
+  </footer>
+
+</body>
+</html>
